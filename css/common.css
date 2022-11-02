@@ -1,0 +1,326 @@
+* {margin: 0; padding: 0;}
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  }
+ul, li { list-style: none;}
+a {text-decoration: none;}
+header {
+  position: relative;
+}
+.navbar-wrap {
+  width: 100vw;
+  height: 84.84px;
+  position: relative;
+  background-color: #171717;
+  padding: 20px 0px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 99;
+}
+.navbar .logo {
+  position: relative;
+  width: 194px;
+  height: 36px;
+  padding: 15px 6px;
+  left: 34px;
+  top: -33px;
+}
+.navbar .gnb-menu {
+  display: flex;
+  margin-left: 150px;
+
+}
+.navbar li {
+  position: relative;
+  font: 16px sans-serif;
+  color: #e5e5e5;
+  top: -5px;
+  left: 20px;
+}
+.navbar .gnb-menu > li {
+  margin: 10px 20px 10px;
+  transition: all 1s;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #171717;
+  text-align: left;
+}
+.navbar .gnb-menu li:hover {
+  border-bottom: 2px solid #ad60c9;
+}
+.navbar .util {
+  position: relative;
+  display: flex;
+  margin-right: 100px;
+  left: 50px;
+}
+.navbar .util li {
+  position: relative;
+  left: -7px;
+  color: #929292;
+  font-size: 13px;
+  padding: 10px 9px 15px;
+}
+.navbar .util li:hover {
+  color: #ab60c9;
+}
+.navbar .util .search {
+  width: 60px;
+  height: 22px;
+  margin-left: 10px;
+  padding: 10px 0px 0px 17px;
+  border-left: 1px solid #929292;
+  
+}
+.navbar .util .search img {
+  position: relative;
+  top: -10px;
+}
+.navbar .navbar-sub {
+  display: none;
+}
+
+/* main */
+
+/* carousel */
+
+/* main-container */
+#main-container {
+  position: relative;
+  width: 100vw;
+  height: 1134px;
+  padding: 75px 0px;
+  background-color: #333;
+}
+#main-container span {
+  width: 1204px;
+  font-size: 2.8rem;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: #fff;
+  border-bottom: 1px solid #666;
+}
+#main-container .image {
+  
+}
+#main-container .image1 {
+  position: absolute;
+  width: 850px;
+  height: 630px;
+  top: 250px;
+  left: 210px;
+}
+#main-container .image .info {
+  position: relative;
+  top: -150px;
+  left: 50px;
+}
+#main-container .image .info .text {
+  color: #fff;
+  margin-top: 10px;
+  letter-spacing: 0.001em;
+  font-size: 16px;
+}
+#main-container .image .info a {
+  font-size: 14px;
+}
+#main-container .image .info .read-more {
+  position: relative;
+  color: #fff;
+  top: 30px;
+  left: 0px;
+  transition: all 1s;
+}
+#main-container .image:hover .info .read-more {
+  color: #ab60c9;
+}
+#main-container .image2 {
+  position: absolute;
+  width: 750px;
+  height: 400px;
+  top: 120px;
+  left: 1080px;
+}
+#main-container .image2 .info {
+  position: relative;
+  left: 20px;
+}
+
+#main-container .image2 .info .text {
+  position: relative;
+  left: 17px;
+}
+#main-container .image2 .info .read-more {
+  position: relative;
+  left: 17px;
+}
+#main-container .image3 {
+  position: absolute;
+  width: 520px;
+  height: 510px;
+  top: 550px;
+  left: 1080px;
+}
+#main-container .image3 .info {
+  
+}
+
+#container-category {
+  width: 100%;
+  height: 378px;
+  padding-top: 70px;
+  background-color: black;
+}
+#container-category .category-text {
+  position: relative;
+  display: flex;
+  top: -20px;
+}
+#container-category h2 {
+  color: white;
+  font-size: 48px;
+  margin-left: 300px;
+}
+#container-category h4 {
+  position: relative;
+  color: #c8c8c8;
+  font-size: 14px;
+  top: 23px;
+  margin-left: 20px;
+}
+#container-category .category-wrap {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 45px;
+}
+#container-category .category-wrap .text {
+  color: #c8c8c8;
+  text-align: center;
+  transition: all 1s;
+}
+#container-category .category-wrap a {
+  display: block;
+  color: #c8c8c8;
+  text-align: center;
+  transition: all 1s;
+}
+#container-category .category-wrap .category-item01:hover .text {color: #ab60c9;}
+#container-category .category-wrap .category-item02:hover .text {color: #ab60c9;}
+#container-category .category-wrap .category-item03:hover .text {color: #ab60c9;}
+#container-category .category-wrap .category-item04:hover .text {color: #ab60c9;}
+
+#container-category .category-wrap .category-item01:hover .read {color: #ab60c9;}
+#container-category .category-wrap .category-item02:hover .read {color: #ab60c9;}
+#container-category .category-wrap .category-item03:hover .read {color: #ab60c9;}
+#container-category .category-wrap .category-item04:hover .read {color: #ab60c9;}
+
+/* container-whynexen */
+#container-whynexen {
+  width: 100%;
+  height: 538px;
+  padding: 100px 273px;
+  background-color: black;
+}
+#container-whynexen .text-area {
+  position: relative;
+  display: flex;
+  top: -20px;
+  left: 11px;
+}
+#container-whynexen .text-area h2{
+  color: white;
+  font-size: 48px;
+}
+#container-whynexen .text-area h4 {
+  position: relative;
+  color: #c8c8c8;
+  font-size: 14px;
+  top: 15px;
+  left: 20px;
+}
+#container-whynexen .whynexen-wrap {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+#container-whynexen .whynexen-wrap .inner-text {
+  position: relative;
+  top: -150px;
+  color: #fff;
+  text-align: center;
+  transition: all 1s;
+}
+#container-whynexen .whynexen-wrap .inner-text h3 {
+  font-size: 20px;
+}
+#container-whynexen .whynexen-wrap .inner-text h5 {
+  font-size: 14px;
+}
+#container-newsevent {
+  width: 100%;
+  height: 548px;
+  padding: 100px;
+  background-color: #dcddde;
+}
+#container-newsevent .wrap {
+  display: flex;
+  
+}
+#container-newsevent .news-section {
+  width: 960px;
+  height: 348px;
+}
+#container-newsevent .news-section .news-item01,.news-item02,.news-item03 {
+  border-bottom: 2px solid #bbb;
+}
+#container-newsevent .title {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  font-size: 48px;
+  color: #333;
+  top: -30px;
+}
+#container-newsevent h5 {
+  font-size: 13px;
+  color: #3f3e3e;
+  margin-top: 10px;
+  font-weight: 200;
+}
+#container-newsevent h4 {
+  font-size: 15px;
+  color: #3e3e3e;
+  margin: 20px 0px;
+  font-weight: 400;
+
+}
+#container-newsevent .news-section .news-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+#container-newsevent .news-section img {
+  width: 300px;
+  height: 200px;
+}
+#container-newsevent .event-section {
+  position: relative;
+  left: 130px;
+  width: 600px;
+  height: 348px;
+  
+}
+#container-newsevent .event-section img {
+  position: relative;
+  right: px;
+  width: 600px;
+  height: 280px;
+}
